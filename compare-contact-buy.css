@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+
+/* navigation bar*/
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -90,16 +93,71 @@ nav {
     border-radius: 1px 1px 0 0;
 }
 
-.card-logo {
-    width: 55px;
-    margin: 20px;
+
+/* wrapper, setting the collumn to 1 x 3*/
+
+.inception {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
-.product-img {
-    position: absolute;
-    left: -188px;
-    margin-top: -150px;
+.inception2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
+
+
+/*setting the size of thr product images*/
+
+.product-img1 {
+    position: absolute;
+    left: -230px;
+    margin-top: -160px;
+    height: 550px;
+}
+
+.product-img2 {
+    position: absolute;
+    left: -140px;
+    margin-top: -115px;
+    height: 550px;
+}
+
+.product-img3 {
+    position: absolute;
+    left: -140px;
+    margin-top: -125px;
+    height: 550px;
+}
+
+.product-img1-t {
+    position: absolute;
+    left: 110px;
+    margin-top: -38px;
+    height: 300px;
+    box-shadow: 11px -11px 30px 10px rgba(58, 58, 58, 0.3);
+}
+
+.product-img2-t {
+    position: absolute;
+    left: 127px;
+    margin-top: -38px;
+    height: 300px;
+    box-shadow: 11px -11px 30px 10px rgba(58, 58, 58, 0.3);
+}
+
+.product-img3-t {
+    position: absolute;
+    left: 110px;
+    margin-top: -38px;
+    height: 300px;
+    box-shadow: 11px -11px 30px 10px rgba(58, 58, 58, 0.3);
+}
+
+
+/*Description of product styling*/
 
 .product-detail {
     padding: 0 20px;
@@ -120,6 +178,15 @@ nav {
     font-size: 125px;
     font-weight: 900;
     margin-left: -6px;
+    margin-top: -12px;
+    color: #0000000e;
+}
+
+.back-text-t {
+    display: inline-block;
+    font-size: 125px;
+    font-weight: 900;
+    margin-left: 0px;
     margin-top: -12px;
     color: #0000000e;
 }
@@ -151,6 +218,9 @@ nav {
     font-weight: 400;
 }
 
+
+/* Product color element styling*/
+
 .product-color h4 {
     font-size: 11px;
     padding: 0 21px;
@@ -176,29 +246,28 @@ nav {
     border-radius: 100%;
 }
 
-.ul-color li a.orange {
+.ul-color li a.black {
     background: #000000;
 }
 
-.ul-color li a.green {
+.ul-color li a.blue {
     background: #116fe9;
 }
 
-.ul-color li a.yellow {
+.ul-color li a.pink {
     background: #ff14c4;
 }
 
-.ul-color li a.active:after {
-    position: absolute;
-    content: '';
-    display: inline-block;
-    border: 1px solid #f35e3d;
-    width: 24px;
-    height: 24px;
-    border-radius: 100%;
-    margin-left: -5px;
-    margin-top: -5px;
+.ul-color li a.white {
+    background: #ececec;
 }
+
+.ul-color li a.creme {
+    background: #c2a372;
+}
+
+
+/* Product price card styling*/
 
 .product-price {
     position: absolute;
@@ -219,9 +288,20 @@ nav {
 }
 
 .container {
-    width: 500px;
+    width: 400px;
     height: 500px;
-    margin: 80px auto;
+    margin: 80px 20px;
+}
+
+
+/*Dividing line between the two traqable product section*/
+
+.dividing-line {
+    size: 0.5;
+    width: 94%;
+    border-color: rgba(0, 0, 0, 0.274);
+    max-width: 2000px;
+    margin: 0px auto;
 }
 
 
