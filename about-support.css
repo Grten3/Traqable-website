@@ -72,19 +72,20 @@ nav {
 }
 
 main {
-    background-color: black;
+    background-color: grey;
 }
 
 .presentation {
     display: flex;
-    width: 90%;
     margin: auto;
     min-height: 80vh;
     align-items: center;
 }
 
 .introduction {
-    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 0px auto;
 }
 
 .intro-text {
@@ -92,179 +93,40 @@ main {
 }
 
 .intro-text h1 {
-    font-size: 44px;
-}
-
-.cover {
-    flex: 1;
-}
-
-.cover img {
-    height: 550px;
-    padding-left: 100px;
-    margin-top: 50px;
-}
-
-.cta {
-    margin-top: 45px;
-}
-
-.cta-learn,
-.cta-buy {
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
-.cta-learn {
-    border: 2px solid white;
-    background: white;
-    color: rgb(39, 39, 39);
-    font-size: 15px;
-    width: 120px;
-    height: 30px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: ease-in-out 250ms;
-}
-
-.cta-buy {
-    border: 2px solid rgb(57, 122, 222);
-    background: rgb(57, 122, 222);
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    width: 120px;
-    height: 30px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: ease-in-out 250ms;
-}
-
-.cta-buy:hover {
-    border: 2px solid rgb(86, 139, 219);
-    background: rgb(86, 139, 219);
-    color: white;
-    transition: ease-in-out 5ms;
-}
-
-.cta-learn:hover {
-    background: rgb(0, 0, 0);
-    color: white;
-    transition: ease-in-out 10ms;
+    font-size: 80px;
 }
 
 
-/* Traqable grid styling */
+/* Contact grid styling */
 
-.center_wrapper {
+#repair {
     display: flex;
-    width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    padding: 150px 0px 0px 0px;
+    height: 260px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    margin: 70px auto;
-    min-width: 719px;
-    max-width: 1400px;
-}
-
-.grid-container>div {
-    background-color: rgba(221, 221, 221, 0.8);
-    justify-content: center;
-}
-
-.fill_parent {
-    height: 100%;
-    width: 100%;
-}
-
-.item1,
-.item4 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.item1 {
-    background-image: url("Images/Creme Bear.png");
-}
-
-.item4 {
-    background-image: url("Images/Pink Bear.png")
-}
-
-.item2 {
-    text-align: left;
-    height: 500px;
-}
-
-.item3 {
-    text-align: right;
-    height: 500px;
-}
-
-.item2,
-.item3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item_text {
-    width: 80%;
-}
-
-
-/* Comparision grid styling */
-
-.comparison_wrapper {
+.contact-us-wrap {
     background-color: rgba(221, 221, 221, 0.8);
     min-width: 719px;
     max-width: 1302px;
-    margin: 0px auto 85px auto;
+    margin: 138px auto 158px auto;
 }
 
-.Comparison_title {
+.contact-us-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 70px 0px 35px 0px;
+    padding: 25px 0px 35px 0px;
 }
 
-.cta2 {
+.contact-us-subtitle {
     display: flex;
     justify-content: center;
-    margin: auto;
-}
-
-.cta-compare {
-    border: 2px solid rgb(57, 122, 222);
-    background: rgb(57, 122, 222);
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    width: 120px;
-    height: 30px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: ease-in-out 250ms;
-}
-
-.cta-compare:hover {
-    border: 2px solid rgb(86, 139, 219);
-    background: rgb(86, 139, 219);
-    color: white;
-    transition: ease-in-out 5ms;
-}
-
-.images_wrapper {
-    display: flex;
-    justify-content: center;
-    margin: 20px auto 20px auto;
-    padding: 70px 0px 80px 0px;
+    align-items: center;
+    padding: 0px 0px 25px 0px;
 }
 
 .comparison_images {
@@ -272,9 +134,26 @@ main {
     justify-content: center;
 }
 
+.images_wrapper {
+    margin: 20px auto 20px auto;
+    padding: 30px 0px 0px 0px;
+}
+
 #comparison_image {
-    height: 250px;
-    padding: 0px 10px
+    height: 50px;
+    padding: 0px 130px
+}
+
+.contact_texts {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    padding: 0px 0px 150px 0px;
+}
+
+.contact_text {
+    height: 50px;
+    padding: 0px 74px
 }
 
 
@@ -344,7 +223,7 @@ main {
 
 .footer-link {
     text-decoration: none;
-    margin: 30px 20px 30px 0px;
+    margin: 0px 20px 0px 0px;
 }
 
 .footer-links {
